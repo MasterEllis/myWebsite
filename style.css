@@ -39,11 +39,12 @@
  section {
    padding: 40px;
    background-color: #fff;
-   margin-bottom: 20px;
+   margin: 20px auto;
+   max-width: 1200px;
  }
  
  #hero {
-   text-align: center;
+   /* text-align: center; */
    background-image: url("hero-bg.jpg");
    background-size: cover;
    background-position: center;
@@ -54,7 +55,10 @@
    margin-top: 5px;
    margin-bottom: 5px;
  }
- 
+ h1{
+  font-size: 80px;
+  margin-bottom: 20px;
+ } 
 .fio{
   margin-bottom: 20px;
 }
@@ -66,13 +70,6 @@
   border-radius: 10%;
  margin-right: 100px;
 }
-
-
- #hero h1 {
-   font-size: 48px;
-   color: #fff;
-   margin-bottom: 20px;
- }
  
  #hero p {
    font-size: 24px;
